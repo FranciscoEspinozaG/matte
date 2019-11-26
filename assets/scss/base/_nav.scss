@@ -1,0 +1,49 @@
+#menu{
+    height: auto;
+    padding: 20px 0px;
+    z-index: 2;
+}
+
+#menu img{
+    height: 35px;
+}
+
+nav li a{
+    font-size: calc( .5vw + 6px);
+    font-weight: lighter;
+    text-decoration: none;
+    transition: .3s ease all;
+    color: #fff !important;
+    &:hover{
+        text-decoration: none !important;
+        color: #fff;
+        opacity: .6;
+    }
+}
+
+.bg-primary{
+    background: $brand-primary-color !important;
+}
+
+.menu-scroll{
+    height: 96px !important;
+}
+
+.bg-second{
+    background: $brand-second-color;
+}
+
+.bg-second-alpha{
+    background: rgba($color: $brand-second-color, $alpha: .95);
+    transition: .3s ease all;
+    &:hover{
+        background: rgba($color: $brand-second-color, $alpha: 1.0);
+        box-shadow: rgba($color: #000000, $alpha: .3) 0px 5px 25px;
+    }
+}
+
+.btn-verde{
+    background: none !important;
+    border: 1px solid $brand-primary-color !important;
+    color: $brand-primary-color;
+}

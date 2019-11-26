@@ -1,0 +1,115 @@
+#cabeceraProyecto{
+    min-height: 500px;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.owl-header .owl-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuadroGris{
+    background: rgba($color: $brand-second-color, $alpha: .8);
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    min-height: 500px;
+    height: 80vh;
+    top: 0;
+    right: 0;
+}
+
+.textoHeader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-size: calc(1vw + 40px);
+    z-index: 4;
+    font-family: 'Lato', sans-serif;
+}
+
+.img-carousel{
+    min-height: 500px;
+    height: 80vh;
+    object-fit: cover;
+}
+
+// PROYECTO
+
+.decoMatte{
+    position: absolute;
+    height: auto;
+    width: 60vw;
+    left: 0;
+    margin-top: -5px;
+    z-index: 10;
+}
+
+.punto{
+    font-size: 15px !important;
+    position: relative;
+    bottom: 1px;
+}
+
+.borde-separador{
+    border-left: 2px solid $brand-primary-color;
+}
+
+.icono-proyecto{
+    width: 60px;
+}
+
+// PLANTAS
+
+.owl-plantas{
+    max-height: 450px;
+}
+
+.owl-plantas .owl-nav{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    font-size: xx-large;
+}
+
+.owl-plantas .owl-nav .owl-prev{
+    position: absolute;
+    left: -30px;
+}
+
+.owl-plantas .owl-nav .owl-next{
+    position: absolute;
+    right: -30px;
+}
+
+.img-planta{
+    height: 250px;
+    object-fit: scale-down;
+}
+
+.tipo-planta{
+    font-size: 15px;
+}
+
+// COMODIDADES
+
+// LUGARES PARA DESCUBRIR
+
+.numeroEntorno{
+    color: $brand-primary-color;
+}
+
+// FOOTER
+
+.iconoRedes{
+    width: 15px;
+    margin: 0px 5px;
+}
+
