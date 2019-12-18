@@ -2,20 +2,38 @@
     get_template_part('includes/header'); 
     b4st_main_before();
 ?>
-
+<div id="formulario" class="d-flex flex-wrap justify-content-end p-0">
+    <div id="inputsFormulario" class="col bg-white p-3 d-flex align-content-around flex-wrap esconde-formulario shadow">
+        <input type="text" id="nombre" class="w-100 mx-auto" placeholder="Nombre*" required>
+        <input type="text" id="apellido" class="w-100 mx-auto" placeholder="Apellido*" required>
+        <input type="text" id="rut" class="w-100 mx-auto input_rut" placeholder="Rut*" required>
+        <input type="text" id="telefono" class="w-100 mx-auto telefono" placeholder="Teléfono*" required>
+        <input type="email" id="email" class="w-100 mx-auto" placeholder="Email*" required>
+        <label for="mensajeContacto">Mensaje</label>
+        <textarea name="mensajeContacto" id="mensajeContacto" cols="30" rows="1"></textarea>
+        <div id="btnEnvia" class="btn text-white bg-dark rounded mx-auto mt-1 btn-enviar btn-disabled">Enviar</div>
+    </div>
+    <div class="d-flex flex-column align-items-start text-center p-0 col-2 bg-white shadow">
+        <p style="transform: rotate(-90deg);margin-left: -25px;" class="tituloContacto light upper py-5 text-center mt-3">Contáctanos</p>
+        <a href="mailto:parquelahuasa@ileben.cl" class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:23px" class="far fa-envelope"></i></a>
+        <a href="https://wa.me/56940020856" class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:25px" class="fab fa-whatsapp"></i></a>
+    </div>
+</div>
 <main id="main" class="container-fluid p-0">
   <?php //get_template_part('includes/loops/index-loop'); ?>
     <section id="cabeceraProyecto" class="container-fluid p-0">
-      <div class="owl-carousel owl-theme owl-header">
-        <div class="img-carousel" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/img/img-slide-02.png') center center / cover no-repeat">
-            <div class="cuadroGris"></div>
+        <div class="owl-carousel owl-theme owl-header">
+            <div class="img-carousel" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/img/slide-1.jpg') center center / cover no-repeat">
+            </div>
+            <div class="img-carousel" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/img/slide-1.jpg') center center / cover no-repeat">
+            </div>
+        </div>
+        <div class="contenedorCuadroTextoLogo">
+            <div class="cuadroGris d-flex text-center justify-content-center align-items-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-matte.png" alt="Edificio Matte" class="logo-matte">
+            </div>
             <h2 class="textoHeader text-white upper bolder text-shadow">Ver & Vivir</h2>
         </div>
-        <div class="img-carousel" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/img/img-slide-03.png') center center / cover no-repeat">
-            <div class="cuadroGris"></div>
-            <h2 class="textoHeader text-white upper bolder text-shadow">Ver & Vivir</h2>
-        </div>
-      </div>
     </section>
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/deco-matte.svg" class="decoMatte" alt="">
     <section id="proyecto" class="py-4 p-md-5 d-flex align-items-center justify-content-center bg-second">
@@ -161,18 +179,6 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-piso-1.png" alt="" width="70%" class="img-planta">
-                        </div>
-                        <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
-                            <p class="m-0 light mt-5">Modelo C | 3D 2B</p>
-                            <p class="tipo-planta">Departamento</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
-                                <p class="m-0">Cotizar</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
-                        <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-RT-piso-1.png" alt="" width="70%" class="img-planta">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-RT-piso-2.png" alt="" width="70%" class="img-planta">
                         </div>
@@ -276,39 +282,42 @@
             </div>
         </section>
     </div>
-    <section id="galeria" class="">
-        <div id="container" class="col-7 alto-pantalla" data-contenedor="galeriaEntorno" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
+    <section id="galeria" class="py-2 bg-second">
+        <div id="container" class="container my-5" data-contenedor="galeriaEntorno" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
             <div class="grid">
                 <div class="grid-sizer"></div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-RT-piso-1.png" />
+                <div class="grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1904.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="img/Mackay-School.png" />
+                <div class="d-flex align-items-center justify-content-center grid-item grid-item-4 overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1888.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="img/club-espanol-renaca.jpg" />
+                <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1934.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="img/tottus-renaca.jpg" />
+                <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1938.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="https://static.emol.cl/emol50/Fotos/2019/01/23/file_20190123120040.jpg" />
+                <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1964.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="https://media-cdn.tripadvisor.com/media/vr-splice-j/06/e7/e6/f4.jpg" />
+                <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2003_b.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="https://i.ytimg.com/vi/WHQ17TQ41dE/maxresdefault.jpg" />
+                <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2032.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="https://s2.latercera.com/wp-content/uploads/2019/09/Estero-Ren%CC%83aca-1-900x600.jpg" />
+                <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2047.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="https://www.blumenplatz.cl/images/2018/06/13/ranaca-445.jpg" />
+                <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2050.jpg" />
                 </div>
-                <div class="grid-item" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="https://static.emol.cl/emol50/Fotos/2019/01/23/file_20190123120040.jpg" />
+                <div class="d-flex align-items-center justify-content-center grid-item grid-item-4 grid-item-h25 overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2055.jpg" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2059.jpg" />
                 </div>
             </div>
         </div>
@@ -351,11 +360,11 @@
             <div class="col-12 col-md d-flex flex-wrap">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-contacto-14.svg" width="20px" class="align-self-start">
                 <div class="col d-flex flex-column px-3">
-                    <p class="mt-n1 medium">Ventas</p>
+                    <p class="mt-n1 medium">Ventas en Oficina corporativa</p>
                     <p class="light">
-                        La Huasa 1945, La Dehesa
+                        Dr. Barros Borgoño 386, Providencia.
                         <br>
-                        Cercano a Mall Portal La Dehesa
+                        Metro Manuel Montt.
                     </p>
                 </div>
             </div>
@@ -364,26 +373,23 @@
                 <div class="col d-flex flex-column px-3">
                     <p class="mt-n1 medium">Horario de Atención</p>
                     <p class="light">
-                    Lunes 15:00 a 19:00 hrs.
+                    Lunes a Viernes
                     <br>
-                    Martes a Domingo 10:30 a 19:00 hrs.
+                    10:00 a 19:00 hrs.
                     </p>
                 </div>
             </div>
             <div class="col-12 col-md d-flex flex-wrap border-contacto-left pl-md-5">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-contacto-16.svg" width="20px" class="align-self-start">
                 <div class="col d-flex flex-column px-3">
-                    <p class="mt-n1 medium">Contacto</p>
+                    <p class="mt-n1 medium">Agenda tu Visita</p>
                     <div class="d-flex flex-wrap m-0 p-0">
                         <p class="light col-12 col-md m-0 p-0">
-                            (+56) 2 2948 7793
-                        </p>
-                        <p class="light col-12 col-md m-0 p-0">
-                            (+56) 9 4002 0856
+                            (+56) 9 7498 3844
                         </p>
                     </div>
                     <a href="mailto:parquelahuasa@ileben.cl" class="light col-12 col-md m-0 p-0">
-                        parquelahuasa@ileben.cl
+                        matte@ileben.cl
                     </a>
                 </div>
             </div>
@@ -397,7 +403,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-17.svg" width="230px" class="">
             <div class="col-12 col-md p-2 text-center text-md-right">
                 <p class="light text-light m-0">Síguenos en <a href="https://www.facebook.com/lebengrupoinmobiliario/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-18.svg" alt="" class="iconoRedes"></a><a href="https://www.instagram.com/lebengrupoinmobiliario/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-19.svg" alt="" class="iconoRedes"></a></p>
-                <p class="light text-light-gray m-0">Todos los derechos reservados © 2018 Leben Grupo Inmobiliario.</p>
+                <p class="light text-light-gray m-0">Todos los derechos reservados © 2019 Leben Grupo Inmobiliario.</p>
             </div>
         </div>
     </footer>
