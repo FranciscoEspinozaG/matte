@@ -136,7 +136,9 @@ section h2 {
 .que-planta {
   font-size: 18px;
   letter-spacing: 2px;
-  margin: 0px !important; }
+  margin: 0px !important;
+  position: absolute;
+  bottom: 0; }
 
 .punto {
   font-size: 25px;
@@ -170,6 +172,9 @@ nav li a {
 .bg-primary {
   background: #89836c !important; }
 
+a .bg-primary:hover {
+  background: rgba(137, 131, 108, 0.6) !important; }
+
 .menu-scroll {
   height: 96px !important; }
 
@@ -186,15 +191,16 @@ nav li a {
     -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 25px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 25px; }
 
-.btn-verde {
-  background: none !important;
-  border: 1px solid #89836c !important;
-  color: #89836c; }
-
 #cabeceraProyecto {
   min-height: 500px;
   height: 80vh;
   overflow: hidden; }
+
+.btn-primary-matte {
+  background: #89836c;
+  border-radius: 5px; }
+  .btn-primary-matte:hover {
+    background: rgba(137, 131, 108, 0.6); }
 
 .owl-header .owl-dots {
   position: absolute;
@@ -379,6 +385,10 @@ textarea {
 
 .tipo-planta {
   font-size: 15px; }
+
+.galPlanta {
+  height: 420px !important;
+  overflow: hidden; }
 
 img {
   -webkit-transition: .5s ease all;

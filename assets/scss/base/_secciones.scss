@@ -4,6 +4,14 @@
     overflow: hidden;
 }
 
+.btn-primary-matte{
+    background: $brand-primary-color;
+    border-radius: 5px;
+    &:hover{
+        background: rgba($color: $brand-primary-color, $alpha: .6);
+    }
+}
+
 .owl-header .owl-dots{
     position: absolute;
     bottom: 10px;
@@ -205,6 +213,11 @@ textarea{
 
 .tipo-planta{
     font-size: 15px;
+}
+
+.galPlanta{
+    height: 420px !important;
+    overflow: hidden;
 }
 
 // COMODIDADES

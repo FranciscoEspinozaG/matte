@@ -152,10 +152,10 @@
                 2 y 3 Dormitorios, Dúplex y Dúplex con Rooftop de 62 m2 a 137 m2
             </p>
         </div>
-        <div class="d-none d-md-block mt-5">
+        <div class="d-none d-md-block mt-2 mb-5">
             <div class="container d-flex flex-wrap">
                 <div class="owl-carousel owl-theme owl-plantas">
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-A-piso-1.png" alt="" width="50%" class="img-planta">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-A-piso-1.png" alt="" width="50%" class="img-planta">
@@ -163,12 +163,12 @@
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light">Modelo A | 3D 3B</p>
                             <p class="tipo-planta">Dúplex</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-piso-1.png" alt="" width="50%" class="img-planta">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-piso-2.png" alt="" width="50%" class="img-planta">
@@ -176,12 +176,12 @@
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light">Modelo B | 3D 3B</p>
                             <p class="tipo-planta">Dúplex</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-RT-piso-1.png" alt="" width="50%" class="img-planta">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-RT-piso-2.png" alt="" width="50%" class="img-planta">
@@ -190,24 +190,24 @@
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light">Modelo B | 3D 3B</p>
                             <p class="tipo-planta">Dúplex con Rooftop</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo C | 3D 2B</p>
                             <p class="tipo-planta">Departamento</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-RT-piso-1.png" alt="" width="50%" class="img-planta">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-RT-piso-2.png" alt="" width="50%" class="img-planta">
@@ -215,24 +215,24 @@
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo C | 3D 2B</p>
                             <p class="tipo-planta">Departamento con Rooftop</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo D | 2D 2B</p>
                             <p class="tipo-planta">Departamento</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-RT-piso-1.png" alt="" width="50%" class="img-planta">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-RT-piso-2.png" alt="" width="50%" class="img-planta">
@@ -240,24 +240,24 @@
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo D | 2D 2B</p>
                             <p class="tipo-planta">Departamento con Rooftop</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo E | 2D 2B</p>
                             <p class="tipo-planta">Departamento</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-RT-piso-1.png" alt="" width="50%" class="img-planta">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-RT-piso-2.png" alt="" width="50%" class="img-planta">
@@ -265,24 +265,24 @@
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo E | 2D 2B</p>
                             <p class="tipo-planta">Departamento con Rooftop</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo F | 2D 2B</p>
                             <p class="tipo-planta">Departamento</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>
                     </div>
-                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
+                    <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5  galPlanta">
                         <div class="owl-carousel owl-theme owl-esquicios">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-RT-piso-1.png" alt="" width="50%" class="img-planta">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-RT-piso-2.png" alt="" width="50%" class="img-planta">
@@ -290,7 +290,7 @@
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo F | 2D 2B</p>
                             <p class="tipo-planta">Departamento con Rooftop</p>
-                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="bg-primary upper text-white col-4 mx-auto p-2">
+                            <a href="//http://www.comercialinmobiliarias.cl/cotizador_web_new/cotizador/index.php?id_subagrupaciones=4&key=ileben&open_dialog=true" class="btn-primary-matte upper text-white col-4 mx-auto p-2">
                                 <p class="m-0">Cotizar</p>
                             </a>
                         </div>

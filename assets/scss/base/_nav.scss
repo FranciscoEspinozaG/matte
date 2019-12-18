@@ -25,6 +25,10 @@ nav li a{
     background: $brand-primary-color !important;
 }
 
+a .bg-primary:hover{
+    background: rgba($color: $brand-primary-color, $alpha: .6) !important;
+}
+
 .menu-scroll{
     height: 96px !important;
 }
@@ -40,10 +44,4 @@ nav li a{
         background: rgba($color: $brand-second-color, $alpha: 1.0);
         box-shadow: rgba($color: #000000, $alpha: .3) 0px 5px 25px;
     }
-}
-
-.btn-verde{
-    background: none !important;
-    border: 1px solid $brand-primary-color !important;
-    color: $brand-primary-color;
 }
