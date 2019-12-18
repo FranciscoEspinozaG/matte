@@ -20,10 +20,10 @@ $(function() {
     });
 
     var posicion = $('#plantas').offset();
-    // console.log(posicion);
+    console.log(posicion);
 
     // FORMULARIO CONTACTO
-    $('.tituloContacto').on('click', function(){
+    $('.tituloContacto').click(function(){
         $('#inputsFormulario').toggleClass('esconde-formulario')
     });
 

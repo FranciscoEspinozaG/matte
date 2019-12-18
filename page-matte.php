@@ -31,7 +31,7 @@
         <p style="transform: rotate(-90deg);margin-left: -25px;" class="tituloContacto light upper py-5 text-center mt-3">Contáctanos</p>
         <a href="mailto:parquelahuasa@ileben.cl" class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:23px" class="far fa-envelope"></i></a>
         <a href="https://wa.me/56940020856" class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:25px" class="fab fa-whatsapp"></i></a>
-        <p class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:25px" class="far fa-user"></i></p>
+        <p id="datosAsesor" class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:25px" class="far fa-user"></i></p>
     </div>
 </div>
 <main id="main" class="container-fluid p-0">
@@ -50,10 +50,10 @@
             <h2 class="textoHeader text-white upper bolder text-shadow">Ver & Vivir</h2>
         </div>
     </section>
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/deco-matte.svg" class="decoMatte" alt="">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/deco-matte.png" class="decoMatte" alt="">
     <section id="proyecto" class="py-4 p-md-5 d-flex align-items-center justify-content-center bg-second">
       <div class="container d-flex flex-column">
-        <div id="cuadroItems" class="d-flex justify-content-center align-items-stretch flex-row mt-md-5 p-2 text-center">
+        <div id="cuadroItems" class="espaciado d-flex justify-content-center align-items-stretch flex-row mt-md-5 p-2 text-center">
           <div class="d-none d-md-block borde-separador"></div>
           <div class="d-flex flex-column mx-md-5 text-center text-white">
             <p class="text-item-proyecto upper m-0">2 <span class="punto">•</span> 3</p>
@@ -157,8 +157,8 @@
                 <div class="owl-carousel owl-theme owl-plantas">
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-A-piso-1.png" alt="" width="70%" class="img-planta">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-A-piso-1.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-A-piso-1.png" alt="" width="50%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-A-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light">Modelo A | 3D 3B</p>
@@ -170,8 +170,8 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-piso-1.png" alt="" width="70%" class="img-planta">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-piso-2.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-piso-1.png" alt="" width="50%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-piso-2.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light">Modelo B | 3D 3B</p>
@@ -183,9 +183,9 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-RT-piso-1.png" alt="" width="70%" class="img-planta">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-RT-piso-2.png" alt="" width="70%" class="img-planta">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-RT-piso-3.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-RT-piso-1.png" alt="" width="50%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-RT-piso-2.png" alt="" width="50%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-B-RT-piso-3.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light">Modelo B | 3D 3B</p>
@@ -197,7 +197,7 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-piso-1.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo C | 3D 2B</p>
@@ -209,8 +209,8 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-RT-piso-1.png" alt="" width="70%" class="img-planta">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-RT-piso-2.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-RT-piso-1.png" alt="" width="50%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-C-RT-piso-2.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo C | 3D 2B</p>
@@ -222,7 +222,7 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-piso-1.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo D | 2D 2B</p>
@@ -234,8 +234,8 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-RT-piso-1.png" alt="" width="70%" class="img-planta">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-RT-piso-2.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-RT-piso-1.png" alt="" width="50%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-D-RT-piso-2.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo D | 2D 2B</p>
@@ -247,7 +247,7 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-piso-1.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo E | 2D 2B</p>
@@ -259,8 +259,8 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-RT-piso-1.png" alt="" width="70%" class="img-planta">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-RT-piso-2.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-RT-piso-1.png" alt="" width="50%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-E-RT-piso-2.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo E | 2D 2B</p>
@@ -272,7 +272,7 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-piso-1.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-piso-1.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo F | 2D 2B</p>
@@ -284,8 +284,8 @@
                     </div>
                     <div class="p-1 d-flex flex-column align-items-center justify-content-center text-center mb-5">
                         <div class="owl-carousel owl-theme owl-esquicios">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-RT-piso-1.png" alt="" width="70%" class="img-planta">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-RT-piso-2.png" alt="" width="70%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-RT-piso-1.png" alt="" width="50%" class="img-planta">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Modelo-F-RT-piso-2.png" alt="" width="50%" class="img-planta">
                         </div>
                         <div class="w-100 mb-0 que-planta d-flex flex-column align-self-end">
                             <p class="m-0 light mt-5">Modelo F | 2D 2B</p>
@@ -313,48 +313,48 @@
         </section>
     </div>
     <section id="galeria" class="py-2 bg-second">
-        <div id="container" class="container my-5" data-contenedor="galeriaEntorno" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
+        <div id="container" class="container mt-5 pt-4" data-contenedor="galeriaEntorno" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
             <div class="grid">
                 <div class="grid-sizer"></div>
                 <div class="grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1904.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1904.jpg" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item grid-item-4 overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1888.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1888.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1934.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1934.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1938.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1938.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1964.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1964.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2003_b.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2003_b.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2032.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2032.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2047.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2047.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2050.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2050.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item grid-item-4 grid-item-h25 overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2055.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2055.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2059.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2059.jpg"  data-fancybox="galeriaEntorno" />
                 </div>
             </div>
         </div>
     </section>
     <div class="d-none d-md-block">
         <section id="lugaresParaDescubrir" class="p-5 d-flex flex-column justify-content-center align-items-center">
-            <h2 class="upper light text-center w-100 mb-5">Lugares para descubrir</h2>
+            <h2 class="upper light text-center w-100 mb-5">Lugares para <strong>descubrir</strong></h2>
             <div class="container d-flex flex-wrap p-0">
                 <div class="col-12 col-md-8 p-0 text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mapa-matte.png" alt="" width="70%">

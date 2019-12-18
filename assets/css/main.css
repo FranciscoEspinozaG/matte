@@ -328,7 +328,10 @@ textarea {
   height: 220px;
   position: absolute;
   bottom: -160px;
-  right: 50px; }
+  right: 50px;
+  -webkit-transition: .3s ease all;
+  -o-transition: .3s ease all;
+  transition: .3s ease all; }
 
 .nombreApellido {
   font-size: 12px; }
