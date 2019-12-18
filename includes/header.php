@@ -34,7 +34,7 @@
     </nav>
 </section>
 <nav class="d-none bg-alpha fixed-top p-4 justify-content-around align-items-center">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_La_Huasa-03.svg" alt="">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-17.svg" alt="">
     <a href="#plantas" class="btn-verde rounded upper px-3 py-1">Cotizar</a>
 </nav>
 <?php b4st_navbar_after();?>

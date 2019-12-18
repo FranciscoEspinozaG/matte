@@ -22,8 +22,14 @@ $(function() {
     var posicion = $('#plantas').offset();
     // console.log(posicion);
 
+    // FORMULARIO CONTACTO
     $('.tituloContacto').on('click', function(){
         $('#inputsFormulario').toggleClass('esconde-formulario')
+    });
+
+    // FORMULARIO ASESOR
+    $('#datosAsesor').click(function(){
+        $('#asesorInmobiliario').toggleClass('esconde-formulario')
     });
 
     $('.owl-header').owlCarousel({

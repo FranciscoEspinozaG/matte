@@ -16,7 +16,7 @@
 
 <?php b4st_footer_after();?>
 
-<?php b4st_bottomline();?>
+<?php //b4st_bottomline();?>
 
 <?php wp_footer(); ?>
 </body>

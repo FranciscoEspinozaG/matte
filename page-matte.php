@@ -13,19 +13,34 @@
         <textarea name="mensajeContacto" id="mensajeContacto" cols="30" rows="1"></textarea>
         <div id="btnEnvia" class="btn text-white bg-dark rounded mx-auto mt-1 btn-enviar btn-disabled">Enviar</div>
     </div>
+    <div id="asesorInmobiliario" class="col bg-white p-3 d-flex align-content-around justify-content-center flex-wrap esconde-formulario shadow">
+        <h6 class="upper light underline border-bottom py-2 text-center">Asesor Inmobiliario</h6>
+        <div class="m-auto d-flex flex-column justify-content-center alignt-items-center">
+            <h6 class="text-center bolder nombreApellido">Nombre Apellido</h6>
+            <p class="text-center nombreApellido">nombre@matte.cl (+56) 9 xxxx xx xx</p>
+            <br>
+            <h6 class="text-center bolder nombreApellido">Nombre Apellido</h6>
+            <p class="text-center nombreApellido">nombre@matte.cl (+56) 9 xxxx xx xx</p>
+            <br>
+            <h6 class="text-center bolder nombreApellido">Nombre Apellido</h6>
+            <p class="text-center nombreApellido">nombre@matte.cl (+56) 9 xxxx xx xx</p>
+            <br>
+        </div>
+    </div>
     <div class="d-flex flex-column align-items-start text-center p-0 col-2 bg-white shadow">
         <p style="transform: rotate(-90deg);margin-left: -25px;" class="tituloContacto light upper py-5 text-center mt-3">Contáctanos</p>
         <a href="mailto:parquelahuasa@ileben.cl" class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:23px" class="far fa-envelope"></i></a>
         <a href="https://wa.me/56940020856" class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:25px" class="fab fa-whatsapp"></i></a>
+        <p class="text-white w-100 bg-primary icono-contacto" target="_blank"><i style="font-size:25px" class="far fa-user"></i></p>
     </div>
 </div>
 <main id="main" class="container-fluid p-0">
   <?php //get_template_part('includes/loops/index-loop'); ?>
     <section id="cabeceraProyecto" class="container-fluid p-0">
         <div class="owl-carousel owl-theme owl-header">
-            <div class="img-carousel" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/img/slide-1.jpg') center center / cover no-repeat">
+            <div class="img-carousel" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/img/slide-1.jpg') center top / cover no-repeat">
             </div>
-            <div class="img-carousel" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/img/slide-1.jpg') center center / cover no-repeat">
+            <div class="img-carousel" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/img/slide-1.jpg') center top / cover no-repeat">
             </div>
         </div>
         <div class="contenedorCuadroTextoLogo">
@@ -38,23 +53,26 @@
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/deco-matte.svg" class="decoMatte" alt="">
     <section id="proyecto" class="py-4 p-md-5 d-flex align-items-center justify-content-center bg-second">
       <div class="container d-flex flex-column">
-        <div id="cuadroItems" class="d-flex justify-content-around align-items-stretch flex-row mt-md-5 p-2 text-center">
+        <div id="cuadroItems" class="d-flex justify-content-center align-items-stretch flex-row mt-md-5 p-2 text-center">
           <div class="d-none d-md-block borde-separador"></div>
-          <div class="d-flex flex-column m-md-1 text-center text-white">
+          <div class="d-flex flex-column mx-md-5 text-center text-white">
             <p class="text-item-proyecto upper m-0">2 <span class="punto">•</span> 3</p>
             <p class="text-item-proyecto m-0 upper light">Dorms.</p>
           </div>
           <div class="d-none d-md-block borde-separador"></div>
-          <div class="d-flex flex-column m-md-1 text-left text-white upper bolder">
+          <div class="d-flex flex-column mx-md-5 text-left text-white upper bolder">
             <p class="text-item-proyecto m-0">Departamentos <span class="punto">•</span> Dúplex</p>
             <p class="text-item-proyecto m-0">Dúplex con rooftop</p>
           </div>
           <div class="d-none d-md-block borde-separador"></div>
-          <div class="d-flex flex-column m-md-1 text-left text-white">
+          <div class="d-flex flex-column mx-md-5 text-left text-white">
             <p class="text-item-proyecto m-0 upper light">Desde</p>
             <p class="text-item-proyecto m-0 upper bolder">Uf 6.490<span class="astericos">*</span></p>
           </div>
           <div class="d-none d-md-block borde-separador"></div>
+        </div>
+        <div class="w-100 mt-5">
+            <p class="upper text-white text-center espaciado"><i class="fas numeroEntorno fa-map-marker-alt mr-3"></i> Ricardo Matte 557 Providencia</p>
         </div>
         <div class="d-none d-md-block">
             <div class="d-flex flex-wrap align-items-start justify-content-center mt-5 text-center">
@@ -91,19 +109,31 @@
         <div class="d-md-none">
             <div class="owl-carousel owl-theme owl-mobile d-flex flex-wrap align-items-start justify-content-center mt-5 text-center">
                 <div class="flex-column mx-auto col-6 col-md-2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iconos-04.svg" class="icono-proyecto mb-3" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-proyecto-01.svg" class="icono-proyecto mb-3" alt="">
                     <p class="text-light-gray">Piscina</p>
                 </div>
                 <div class="flex-column mx-auto col-6 col-md-2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iconos-05.svg" class="icono-proyecto mb-3" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-proyecto-02.svg" class="icono-proyecto mb-3" alt="">
                     <p class="text-light-gray">Quincho</p>
                 </div>
                 <div class="flex-column mx-auto col-6 col-md-2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iconos-06.svg" class="icono-proyecto mb-3" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-proyecto-03.svg" class="icono-proyecto mb-3" alt="">
                     <p class="text-light-gray">Hobby Room<br>(opcional)</p>
                 </div>
                 <div class="flex-column mx-auto col-6 col-md-2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iconos-07.svg" class="icono-proyecto mb-3" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-proyecto-04.svg" class="icono-proyecto mb-3" alt="">
+                    <p class="text-light-gray">Ascensor de Acceso</p>
+                </div>
+                <div class="flex-column mx-auto col-6 col-md-2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-proyecto-05.svg" class="icono-proyecto mb-3" alt="">
+                    <p class="text-light-gray">Ascensor de Acceso</p>
+                </div>
+                <div class="flex-column mx-auto col-6 col-md-2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-proyecto-06.svg" class="icono-proyecto mb-3" alt="">
+                    <p class="text-light-gray">Ascensor de Acceso</p>
+                </div>
+                <div class="flex-column mx-auto col-6 col-md-2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icono-proyecto-07.svg" class="icono-proyecto mb-3" alt="">
                     <p class="text-light-gray">Ascensor de Acceso</p>
                 </div>
                 </div>
@@ -115,7 +145,7 @@
     </section>
     <section id="plantas" class="p-5 d-flex flex-column align-items-center justify-content-center">
         <div class="container d-flex flex-column my-5">
-            <h2 class="upper light text-center w-100">Elije tu próximo departamento</h2>
+            <h2 class="upper light text-center w-100">Elije tu próximo <strong>departamento</strong></h2>
             <p id="texto-proyecto" class="text-center w-100">
                 Edificio de 7 pisos con sólo 48 departamentos.
                 <br>

@@ -131,11 +131,23 @@ textarea{
     justify-content: center;
     box-sizing: border-box;
     margin: 0px 0px 5px 0px;
+    cursor: pointer;
     &:hover{
         text-decoration: none;
+        background: rgba($color: $brand-second-color, $alpha: .8) !important;
     }
 }
 
+#asesorInmobiliario{
+    height: 220px;
+    position: absolute;
+    bottom: -160px;
+    right: 50px;
+}
+
+.nombreApellido{
+    font-size: 12px;
+}
 
 // PROYECTO
 
