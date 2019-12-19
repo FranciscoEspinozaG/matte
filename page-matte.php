@@ -317,37 +317,37 @@
             <div class="grid">
                 <div class="grid-sizer"></div>
                 <div class="grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1904.jpg" data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1904.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1904.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item grid-item-4 overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1888.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1888.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1888.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1934.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1934.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1934.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1938.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1938.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1938.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1964.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1964.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_1964.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2003_b.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2003_b.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2003_b.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2032.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2032.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2032.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2047.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2047.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2047.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2050.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2050.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2050.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item grid-item-4 grid-item-h25 overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2055.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2055.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2055.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
                 <div class="d-flex align-items-center justify-content-center grid-item overflow-hidden" data-toggle="modal" data-target="#modalEntorno">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2059.jpg"  data-fancybox="galeriaEntorno" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2059.jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/_MG_2059.jpg" class="fancybox" data-fancybox="galeriaEntorno" />
                 </div>
             </div>
         </div>
